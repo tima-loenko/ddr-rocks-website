@@ -4,12 +4,8 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   // used to generate images
-  site:
-    process.env.VERCEL_ENV === 'production'
-      ? 'https://brutal.elian.codes/'
-      : process.env.VERCEL_URL
-        ? `https://${process.env.VERCEL_URL}/`
-        : 'https://localhost:3000/',
+  site: 'https://tima-loenko.github.io',
+  base: '/ddr-rocks-website', // change to custom https://docs.astro.build/en/guides/deploy/github/#change-your-github-url-to-a-custom-domain
   trailingSlash: 'ignore',
   integrations: [sitemap()],
   vite: {
