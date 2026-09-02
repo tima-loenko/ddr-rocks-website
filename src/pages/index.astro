@@ -1,5 +1,6 @@
 ---
 import RecentBlogPosts from '@components/generic/RecentBlogPosts.astro';
+import HomePage from '@components/home/HomePage.astro';
 import MobileSocials from '@components/home/MobileSocials.astro';
 import { Button, Card, Pill } from '@eliancodes/brutal-ui';
 import Layout from '@layouts/Default.astro';
@@ -25,8 +26,10 @@ const builtWith = [
   title='Home'
   pageTitle='Brutal Theme | Home'
   description='Brutal is a minimalistic, neobrutalism theme for Astro.'
+  classList='h-full'
 >
-  <main class='bg-pink-theme p-6'>
+  <main class='bg-pink-theme h-full'>
+    <HomePage />
     <!-- <MobileSocials />
     <section id='about' class='grid md:grid-cols-8 gap-8 mt-4'>
       <h2 class='hidden'>About Brutal</h2>
