@@ -1,6 +1,6 @@
 ## Brutal Theme ##
 
-All development & Content by Elian Van Cutsem
+All development & Content by Tim DDR
 
-- email: hello@elian.codes
-- website: www.elian.codes
+- email: tima.loenko@gmail.com
+- website: ddr.rocks
